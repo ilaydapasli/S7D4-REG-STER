@@ -20,7 +20,7 @@ const [errors,setErrors]=useState({
     ad:false,
     soyad:false,
     email:false,
-    password: true,
+    password: false,
 })
 const [isvalid,setIsvalid]=useState(false);
 const [id,setId] =useState("")
